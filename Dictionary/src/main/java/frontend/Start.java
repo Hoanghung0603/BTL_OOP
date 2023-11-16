@@ -1,4 +1,4 @@
-package testing.testlinhtinh;
+package frontend;
 
 import javafx.application.Application;
 import javafx.event.EventHandler;
@@ -12,13 +12,13 @@ import javafx.stage.StageStyle;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class Start extends Application {
     private double xOffset;
     private double yOffset;
 
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/testing/testlinhtinh/hello-view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/frontend/Menu-view.fxml"));
         root.setStyle("-fx-background-color: TRANSPARENT");
 
         stage.setTitle("Dictionary Application");

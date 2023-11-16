@@ -1,4 +1,4 @@
-package testing.testlinhtinh;
+package frontend;
 
 public class TranslateController {
 }
